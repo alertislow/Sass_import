@@ -1,0 +1,37 @@
+*, *::before, *::after {
+    box-sizing: border-box;
+  }
+body{
+    font-family: $font-family-base;
+    line-height: 1.2;
+}
+  
+a{
+    text-decoration: none;
+}
+  
+img{
+    max-width: 100%;
+    height: auto;
+}
+.header{
+    background: #000;
+    .logo{
+        font-size: $font-l;
+        a{
+            color: $link-color;
+            text-decoration: $link-decoration;
+            &:hover{
+                color: $link-hover;
+                text-decoration: $link-hover-decoration;
+            }
+            &:active{
+                text-decoration: $link-decoration;
+            }
+        }
+    }
+}
+
+.content h2{
+    font-family: $font-family-title;
+}

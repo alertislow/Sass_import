@@ -1,0 +1,9 @@
+$link-color: bisque;
+// 內建語法 darken(顏色,百分比)
+$link-hover: darken($link-color,15%);
+$link-decoration: none;
+$link-hover-decoration: underline;
+$font-m: 16px;
+$font-l: $font-m*2;
+$font-family-base: "Segoe UI,Microsoft JhengHei,Arial,sans-serif";
+$font-family-title: "monospace";
